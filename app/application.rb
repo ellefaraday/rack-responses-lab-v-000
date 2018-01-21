@@ -1,4 +1,4 @@
-require "pry"
+
 
 class Application
   def call(env)
@@ -12,6 +12,3 @@ class Application
     resp.finish
   end
 end
-
-
-binding.pry
