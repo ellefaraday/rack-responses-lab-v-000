@@ -14,4 +14,4 @@ class Application
   end
 end
 
-Application.new
+Application.new.call(env)
